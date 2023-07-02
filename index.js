@@ -35,6 +35,7 @@ console.log(students.length);
 for (let i = 0; i < students.length; i++) {
     console.log(students[i]);
 }
+alert(students)
 
 const group = [
     {Umar: '0'}, 
@@ -50,3 +51,4 @@ const group = [
 for (person of group) {
     console.log(person)
 }
+alert(group)
