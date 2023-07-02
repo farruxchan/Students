@@ -1,5 +1,52 @@
-let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod']
-alert (students)
-students.push ('Aziz', 'Zuhriddin');
-alert (students)
-alert(students[students.length - 1])
+// let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod']
+// alert (students)
+// students.push ('Aziz', 'Zuhriddin');
+// alert (students)
+// alert(students[students.length - 1])
+
+// const students = {
+//     'Umar': 30,
+//     'Danil': 17,
+//     'Zohid': 24,
+//     'Farrukh': 35,
+//     'Abdumalik': 20,
+//     'Temur': 20,
+//     'Temur aka': 39,
+//     'Vsevolod': 33
+// }
+
+// for (person in group) {
+//     console.log('${person}, age: ${group[person]}') {
+//         break;
+//     }
+// }
+
+// let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod']
+// alert (students)
+// for (let person of students) {
+//     console.log('Group ${person}');
+// }
+// alert (students)
+
+let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod',];
+alert(students)
+console.log(students.length);
+
+for (let i = 0; i < students.length; i++) {
+    console.log(students[i]);
+}
+
+const group = [
+    {Umar: '0'}, 
+    {Danil: '1'}, 
+    {Zohid: '2'}, 
+    {Farrukh: '3'}, 
+    {Abdumalik: '4'}, 
+    {Temur: '5'}, 
+    {Temuraka: '6'}, 
+    {Vsevolod: '7'},
+]
+
+for (person of group) {
+    console.log(person)
+}
