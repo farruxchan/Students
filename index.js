@@ -28,27 +28,43 @@
 // }
 // alert (students)
 
-let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod',];
-alert(students)
-console.log(students.length);
+// let students = ['Umar', 'Danil','Zohid', 'Farrukh', 'Abdumalik', 'Temur', 'Temuraka', 'Vsevolod',];
+// alert(students)
+// console.log(students.length);
 
-for (let i = 0; i < students.length; i++) {
-    console.log(students[i]);
+let students = prompt('Сколько студентов в группе?');
+
+while (students == '' || students == null) {
+    students = prompt('Сколько студентов в группе?');
 }
-alert(students)
 
-const group = [
-    {Umar: '0'}, 
-    {Danil: '1'}, 
-    {Zohid: '2'}, 
-    {Farrukh: '3'}, 
-    {Abdumalik: '4'}, 
-    {Temur: '5'}, 
-    {Temuraka: '6'}, 
-    {Vsevolod: '7'},
-]
+alert(students + ', Введите фамилию и имя студентов.')
 
-for (person of group) {
-    console.log(person)
-}
-alert(group)
+let surname = prompt('Введите фамилию');
+let name = prompt('Введите имя');
+
+// const person = {
+//     let surname = prompt('Введите фамилию'),
+//     let name = prompt('Введите имя')
+// }
+// alert(students)
+// for (let i = 0; i < students.length; i++) {
+//     console.log(students[i]);
+// }
+// alert(students)
+
+// const group = [
+//     {Umar: '0'}, 
+//     {Danil: '1'}, 
+//     {Zohid: '2'}, 
+//     {Farrukh: '3'}, 
+//     {Abdumalik: '4'}, 
+//     {Temur: '5'}, 
+//     {Temuraka: '6'}, 
+//     {Vsevolod: '7'},
+// ]
+
+// for (person of group) {
+//     console.log(person)
+// }
+// alert(group)
