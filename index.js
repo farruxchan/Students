@@ -38,8 +38,6 @@ while (students == '' || students == null) {
     students = prompt('Сколько студентов в группе?');
 }
 
-alert(students + ', Введите фамилию и имя студентов.')
-
 let surname = prompt('Введите фамилию');
 let name = prompt('Введите имя');
 
