@@ -32,14 +32,22 @@
 // alert(students)
 // console.log(students.length);
 
+
+
+// while (students == '' || students == null) {
+//     students = prompt('Сколько студентов в группе?');
+// }
+group = []
 let students = prompt('Сколько студентов в группе?');
-
-while (students == '' || students == null) {
-    students = prompt('Сколько студентов в группе?');
+for(i = 0;i < students;i++) {
+    let surname = prompt('Введите фамилию');
+    let name = prompt('Введите имя');
+    group.push({
+        student_name:name,
+        student_surname:surname,
+    })
 }
-
-let surname = prompt('Введите фамилию');
-let name = prompt('Введите имя');
+console.log(group)
 
 // const person = {
 //     let surname = prompt('Введите фамилию'),
